@@ -1,0 +1,44 @@
+
+{
+
+    "configurations": [
+
+        {
+
+            "name": "Arduino",
+
+            "includePath": [
+
+                "${workspaceFolder}/**",
+
+                "/path/to/hd44780/library",
+
+                "/path/to/hd44780ioClass/library"
+
+            ],
+
+            "browse": {
+
+                "path": [
+
+                    "${workspaceFolder}",
+
+                    "/path/to/hd44780/library",
+
+                    "/path/to/hd44780ioClass/library"
+
+                ],
+
+                "limitSymbolsToIncludedHeaders": true
+
+            },
+
+            "intelliSenseMode": "gcc-x64"
+
+        }
+
+    ],
+
+    "version": 4
+
+}
